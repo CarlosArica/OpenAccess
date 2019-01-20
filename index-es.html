@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<!--Icon en la pestaña de la página-->
+		<link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+		
+		<!--Estilos css de la página-->
+		<link rel="stylesheet" href="css/estilos.css">
+		
+		<!--Carácteres que reconoce la página-->
+		<meta charset="utf-8">
+		
+		<!--Escala para el tamaño de la pantalla-->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+		
+		<!--Título en la pestaña de la página-->
+		<title>OpenAccess</title>
+		
+		<!--Fonts de las redes sociales y el botón menú abrir/cerrar-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<style>
+			
+			.Presentación {
+				
+				border-bottom: 0px solid black;
+				padding-top: 165px;
+				background: url(img/logo.png), url(img/Portada.png);
+				background-repeat: no-repeat;
+				background-size: contain, cover;
+				background-position: center;
+				width: 100%;
+				height: 500px;
+				text-align: center;
+				
+			}
+			
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<!--Cabeza de la página-->
+		<header>
+			
+			<!--Logo de cabecera-->
+			<a href="index-es.html"><img class="logo" src="img/logo.png" style="margin-left: 20px; margin-top: 20px; background: white; border-radius: 50%;"></a>
+			
+			<!--Botón de idioma-->
+			<a href="index.html" class="menutipo1"><button class="idioma">EN</button></a>
+			
+			<!--Menú tipo 1-->
+			<div style="float: left; margin-top: 70px; margin-left: -55.5px">
+				
+				<!--Lista del menú-->
+				<div class="menutipo1">
+					
+					<a href="index-es.html"><button class="b3" style="margin-left: 0px; font-size: 17px;">Inicio</button></a>
+					<a href="about-es.html"><button class="b3" style="margin-left: 0px; font-size: 17px;">Sobre</button></a>
+					<a href="Knowledge-es.html"><button class="b3" style="margin-left: 0px; font-size: 17px;">Conocimiento</button></a>
+					
+				</div>
+				
+				<!--Redes Sociales-->
+				<div class="menutipo1">
+					
+					<a href="" style="float: left" class="social b4 fa fa-facebook"></a>
+					<a href="https://github.com/CarlosArica/OpenAccess" style="float: left" class="social b4 fa fa-github"></a>
+					<a href="https://www.youtube.com/channel/UChnbBS13ie93eLjbmbXuoBw" style="float: left" class="social b4 fa fa-youtube"></a>
+					
+				</div>
+				
+			</div>
+			
+			<!--Abrir/Cerrar el menú tipo 2-->
+			<div style="float: right">
+				
+				<div class="menutipo2">
+					
+					<button onclick="menu()" class="b3" style="z-index: 10001; font-size: 34px;"><span id="bars"><i class="fa fa-bars"></span></i><span id="close"><i class="fa fa-close"></span></i></button>
+					
+				</div>
+				
+			</div>
+			
+		</header>
+		
+		<!--Sección 1-->
+		<div class="Presentación" style="border: none">
+			
+			<!--Título-->
+			<div class="rel">
+				
+				<h2 class="title">
+					
+					<button class="repro" style="padding: 18px 20px 18px 23px; width: auto; border-radius: 50%;" onclick="document.getElementById('id00').style.display='block'">&#9654;</button>
+					
+				</h2>
+				
+			</div>
+			
+		</div>
+		
+		<!--Sección 2/Información de OpenAccess-->
+		<div class="Sección" style="border: none; background: #214B90;">
+			
+			<!--Información 1 de OpenAccess-->
+			<div class="Contenedor1">
+				
+				<p class="title2" style="max-width: 100%">ENCUENTRA CONOCIMIENTO</p>
+				
+				<p class="infoopenaccess" style="border: 1px solid #4EBFC3; color: white; padding: 5px 5px; float: top; max-width: 100%; height: auto; margin-left: 10%; margin-right: 10%">
+				OpenAccess es una plataforma donde se encuentran organizados temas de diversas áreas y  a los cuales 
+				podrás acceder de forma libre para su aprendizaje y compartir su contenido para lograr un máximo 
+				alcance.
+				</p>
+				
+				<br>
+				
+			</div>
+			
+			<!--Información 2 de OpenAccess-->
+			<div class="Contenedor1">
+				
+				<p class="title2" style="max-width: 100%">INFORMACIÓN LIBRE</p>
+				
+				<p class="infoopenaccess" style="border: 1px solid #4EBFC3; color: white; padding: 5px 5px; float: top; max-width: 100%; height: auto; margin-left: 10%; margin-right: 10%">
+					Acceso libre para todos a toda la información almacenada en OpenAccess para cruzar fronteras con el 
+					conocimiento y aprender lo que te gustaría aprender y lo que aún no sabes que te gustaría aprender.
+				</p>
+				
+				<br>
+				
+			</div>
+			
+			<!--Información 3 de OpenAccess-->
+			<div class="Contenedor2">
+				
+				<p class="title2" style="max-width: 100%">USALO COMO GUÍA</p>
+				
+				<p class="infoopenaccess">
+					Navega a través de conocimiento en diferentes temas y áreas para expandir tus campos de aprendizaje 
+					en una amplia gama de disciplinas logrando obtener e integrar capacidades multidisciplinarias.
+				</p>
+				
+				<br>
+				
+			</div>
+			
+			<!--Información 4 de OpenAccess-->
+			<div class="Contenedor2">
+				
+				<p class="title2" style="max-width: 100%">TEMAS VARIADOS</p>
+				
+				<p class="infoopenaccess">
+					Navega a través de conocimiento en diferentes temas y áreas para expandir tus campos de aprendizaje 
+					en una amplia gama de disciplinas, logrando obtener e integrar capacidades multidisciplinarias.
+				</p>
+				
+				<br>
+				
+			</div>
+			
+		</div>
+		
+		<!--Sección 3/Pie de página-->
+		<div class="Sección" style="margin-top: 0px; background: none; text-align: center; display: inline-block">
+			
+			<!--Logo - eslogan - sociales-->
+			<div style="display: inline-block; width: 445px; float: ; text-align: center; max-width: 100%; background: #; height: 112px">
+			
+				<img src="img/logo.png" style="height: 60px; margin-left: 0px; position: relative; text-align: center;">
+				<p style="margin-top: 0px; max-width: 100%; text-align: center; position: relative; font-size: 15px">Cruzando fronteras con libre y accesible conocimiento</p>
+				<a href="https://github.com/CarlosArica" style="color: #3B5998; text-align: center" class="social fa fa-facebook"></a>
+				<a href="https://github.com/CarlosArica/OpenAccess" style="color: #ffffff; text-align: center" class="social fa fa-github"></a>
+				<a href="https://www.youtube.com/channel/UChnbBS13ie93eLjbmbXuoBw" style="color: #bb0000; text-align: center" class="social fa fa-youtube"></a>
+				
+			</div>
+			
+			<!--Información de contacto-->
+			<div class="infocontacto" style="display: inline-block; float: ; padding-top: 0px; margin-right: 0px; max-width: 100%; text-align: center; width: 445px; background: #; height: 112px">
+				
+				<a href="" style="color: #fff" class="b5"><i style="color: red">Correo:</i> carlos.r.arica.rosado@gmail.com</a><br>
+				<a href="https://github.com/CarlosArica/OpenAccess" style="color: #fff" class="b5"><i style="color: red">Github:</i> github.com/CarlosArica/OpenAccess</a><br>
+				<a href="https://carlosarica.github.io/PersonalPortfolio/" style="color: #fff" class="b5"><i style="color: red">Portafolio:</i> carlosarica.github.io/PersonalPortfolio/</a><br>
+				<a href="" style="color: #fff" class="b5"><i style="color: red">Teléfono:</i> 973840786</a>
+				
+			</div>
+			
+		</div>
+		
+	</body>
+		
+		<!--Ventana flotante principal/video de la página-empresa-persona-etc-->
+		<div id="id00" class="ventana" style="z-index: 10000; text-align: center">
+			
+			<!--Cerrar ventana flotante-->
+			<span onclick="document.getElementById('id00').style.display='none'" class="cerrar" title="Cerrar">&times;</span>
+			
+			<!--Video de la página-->
+			<iframe style="max-width: 100%; border: none; background-color: #FF9E19" width="560" height="315" src="https://www.youtube.com/embed/jOEcsNmTk7g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			
+		</div>
+		
+		<!--Ventana flotante del menú tipo 2-->
+		<div id="menus" class="ventanamenu" style="z-index: 1000; text-align: center">
+				
+				<!--Logo de menú-->
+				<a href="index-es.html"><img src="img/logo.png" style="width: 70px"></a>
+				
+				<!--Lista del menú tipo2-->
+				<div style="display: block; float: none; max-width: 100%">
+					
+					<ul>
+						
+						<li><a href="index-es.html"><button class="btnmenu" style="font-size: 24px; font-family: Arial Black, Gadget, sans-serif;">INICIO</button></a></li>
+						<li><a href="about-es.html"><button class="btnmenu" style="font-size: 24px; font-family: Arial Black, Gadget, sans-serif;">SOBRE OPENACCESS</button></a></li>
+						<li><a href="Knowledge-es.html"><button class="btnmenu" style="font-size: 24px; font-family: Arial Black, Gadget, sans-serif;">CONOCIMIENTO</button></a></li>
+						
+					</ul>
+					
+				</div>
+				
+				<!--Redes Sociales-->
+				<div>
+					
+					<a href="https://www.youtube.com/channel/UChnbBS13ie93eLjbmbXuoBw" style="float: none" class="social b4 fa fa-youtube"></a>
+					<a href="https://github.com/CarlosArica/OpenAccess" style="float: none" class="social b4 fa fa-github"></a>
+					<a href="" style="float: none" class="social b4 fa fa-facebook"></a>
+					
+				</div>
+				
+				<!--Idiomas-->
+				<div>
+					
+					<a href="index-es.html"><button class="idioma2" style="float: none; background: #4EBFC3;">ES</button></a>
+					<a href="index.html"><button class="idioma2" style="float: none; background: #;">EN</button></a>
+					
+				</div>
+				
+		</div>
+		
+		<!--Cierra ventanas flotantes con un click fuera de estas-->
+		<script>
+		
+		//variables de uso general
+		var modal1 = document.getElementById('id01');
+		var modal2 = document.getElementById('id02');
+		var modal3 = document.getElementById('id03');
+		
+		//variables del logo de la página/empresa/persona/etc
+		var modal00 = document.getElementById('id00');
+		
+		//variables del menú
+		var bars = document.getElementById("bars");
+		var close = document.getElementById("close");
+		var menus = document.getElementById("menus");
+		
+		//Mostrar/Ocultar menú y abrir/cerrar menú
+		function menu() {
+			
+			if (bars.style.display === "none") {
+				menus.style.display = "none";
+				close.style.display = "none";
+				bars.style.display = "block";
+			}
+			else {
+				menus.style.display = "block";
+				close.style.display = "block";
+				bars.style.display = "none";
+			}
+			
+		}
+		
+		//Click fuera de las ventanas para cerrar-->
+		window.onclick = function(cerrar) {
+			
+			//eventos de uso general
+			if (cerrar.target == modal1) {
+				modal1.style.display = "none";
+			}
+			else if (cerrar.target == modal2) {
+				modal2.style.display = "none";
+			}
+			else if (cerrar.target == modal3) {
+				modal3.style.display = "none";
+			}
+			
+			//eventos del logo de la página/empresa/persona/etc
+			else if (cerrar.target == modal00) {
+				modal00.style.display = "none";
+			}
+			
+			//eventos del menú
+			else if (cerrar.target == menus) {
+				menus.style.display = "none";
+				close.style.display = "none";
+				bars.style.display = "block";
+			}
+			
+		}
+		
+		</script>
+		
+</html>
